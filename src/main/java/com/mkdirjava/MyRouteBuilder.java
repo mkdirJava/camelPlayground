@@ -1,7 +1,5 @@
 package com.mkdirjava;
 
-import org.apache.camel.Component;
-import org.apache.camel.Endpoint;
 import org.apache.camel.builder.RouteBuilder;
 
 /**

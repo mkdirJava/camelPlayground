@@ -1,4 +1,4 @@
-package com.mkdirjava;
+package com.mkdirjava.route.flow;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.Exchange;
@@ -10,7 +10,7 @@ import org.apache.camel.test.junit5.CamelTestSupport;
 import org.junit.jupiter.api.Test;
 import java.util.concurrent.TimeUnit;
 
-class PracticeRouteTest  extends CamelTestSupport {
+class WhenRouteTest extends CamelTestSupport {
 
     @Override
     protected CamelContext createCamelContext() throws Exception {
@@ -29,7 +29,7 @@ class PracticeRouteTest  extends CamelTestSupport {
 
     @Override
     protected RoutesBuilder[] createRouteBuilders() {
-        return new PracticeRoute[]{new PracticeRoute()};
+        return new WhenRoute[]{new WhenRoute()};
     }
 
     @Test
